@@ -1,7 +1,7 @@
 
 /* Tablet */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1170px) {
     .container {
         width: 100%;
     }
@@ -10,9 +10,6 @@
 /* Mobile */
 
 @media screen and (max-width:480px) {
-    .container {
-        width: 100%;
-    }
     .row {
         flex-wrap: wrap;
     }
@@ -37,6 +34,4 @@
         margin: 0;
 
     }
-    
-
 }
