@@ -1,0 +1,42 @@
+
+/* Tablet */
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:480px) {
+    .container {
+        width: 100%;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .col {
+        width: 100% !important;
+    }
+    .lessons .col:nth-child(2) .card {
+        padding-top: 4em;
+    }
+    .steps .col:nth-child(2) .card {
+        padding: 4em 0;
+    }
+    .steps {
+        margin-bottom: 0;
+    }
+    .why-us img {
+        padding-bottom: 4em;
+    }
+    .why-us {
+        background-color: #222222;
+        padding: 3em 0;
+        margin: 0;
+
+    }
+    
+
+}
