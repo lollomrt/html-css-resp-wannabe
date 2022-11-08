@@ -13,10 +13,10 @@
     .row {
         flex-wrap: wrap;
     }
-    .col {
-        width: 100% !important;
+    .lessons .col, .why-us .col, .steps .col {
+        width: 100%;
     }
-    .lessons .col:nth-child(2) .card {
+    .lessons .col:nth-child(2) .card, .steps .col:nth-child(2) .card {
         padding-top: 4em;
     }
     .steps .col:nth-child(2) .card {
